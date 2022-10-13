@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Assignment 2</title>
+    <style>
+        .breadcrumb{
+            padding-left: 50px;
+            padding-top: 20px;
+            background-color: aquamarine;
+            list-style-type: none;
+        }
+
+        .breadcrumb li{
+            display: inline;
+            
+        }
+
+        .breadcrumb li a{
+            color: blueviolet;
+        }
+
+        li::after{
+            content: "/";
+            color: blue;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <ul class="breadcrumb">
+        <li class="Home"><a href="#">Home</a></li>
+        <li class="User"><a href="#">Users</a></li>
+        <li class="Name"><a href="#">Lim Chen Teik</a></li>
+        <li class="info">info</li>
+    </ul>
+    
+</body>
+</html>
