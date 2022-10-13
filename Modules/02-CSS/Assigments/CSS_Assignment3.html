@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS_Assignment3</title>
+    <style>
+        body{
+            background-color: rgb(232, 240, 228);
+        }
+
+        .menu{
+            position: relative;
+            width: 90px;
+            height: 1000px;
+            left: 10px;
+            top: 10px;
+        }
+        .title{
+            background-color:rgb(66, 211, 66);
+	        border:1px solid #11a822;
+	        display:inline-block;
+	        cursor:pointer;
+	        color:#ffffff;
+	        font-family:Arial;
+	        font-size:12px;
+	        padding:10px 21px;
+	        text-decoration:none;
+	        box-shadow:0px 6px 0px #2f6627, 3px 10px 10px blueviolet;
+        }
+
+        .submenu{
+            display: none;
+            position: absolute;
+        }
+
+        .submenu-item{
+            background-color:lightgreen;
+	        border:1px solid #18ab29;
+            display: block;
+	        cursor:pointer;
+	        color:#ffffff;
+	        font-family:Arial;
+	        font-size:12px;
+	        padding:10px 21px;
+	        text-decoration:none;
+	        box-shadow:0px 6px 0px #2f6627, 3px 10px 10px blueviolet;
+        }
+
+        .menu:hover .submenu{
+            
+            display: block;
+
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <span class="title">Settings</span>
+        
+        <div class="submenu">
+            <span class="submenu-item">Account</span>
+            <span class="submenu-item">Log out</span>
+        </div>
+    </div>
+    
+</body>
+</html>
