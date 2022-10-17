@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment1</title>
+   
+    <style>
+
+
+
+        
+body{
+     margin: 0px;
+     padding: 0px;
+     width: 1440px;
+     background-color: lightgreen;
+    }
+
+
+.header{   
+    display: flex;
+    position: relative;
+    background-color: orange;
+    margin:0px;
+    width: 360px;
+   
+    font-size: 12px;
+    
+           
+}
+
+  
+
+ul{
+    display:flex;
+    flex:1 0 0px;
+    list-style-type: none;
+    margin-top: 0px;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    height: 4em; 
+    width: 1200px;      
+    font-size: 1em;
+    
+}
+
+
+
+.dropdown_btn{
+    margin: 0%;
+    padding-left: 10vw;
+    padding-top: 5%;
+    position: relative;
+    display: inline-block;
+}
+
+
+  
+.dropdown-content{
+    position: absolute;
+    display: none;
+    top: 60px;
+    margin-right: 1009px;
+    background-color:lightskyblue;
+    z-index: 2;
+    width: 360px;
+    height: 360px;
+    font-size: 26px;
+    
+}
+
+.list{
+    padding-left: 102px;
+    padding-top: 20px;
+}
+
+.header:hover .dropdown-content {
+    display: block;
+    cursor: pointer;
+    
+}
+
+
+.navigation_bar{   
+    background-color: aquamarine;
+    margin-bottom: 0px;
+    padding-bottom: 0%;
+    
+    
+           
+}
+.navigation_bar li:hover{
+    background-color: lightblue;
+}
+.navigation_bar .last-list-item:hover{
+    
+    cursor: pointer;
+}
+
+
+            .header{
+                 
+            display: none;
+        
+            }
+
+            .navigation_bar{
+                display: flex;
+                align-items: center;
+                background-color: red;
+                font-size: 8px;
+                width: 500px;
+
+            }
+
+            first-list-item{              
+   
+   flex: 0 0 0% ;
+                  
+}
+
+
+.second-item{
+   padding-left: 20px;
+  
+   flex: 0 0 0%;
+
+}
+
+.third-item{
+
+   padding-left: 2vw;
+  
+}
+
+
+.fourth-item{
+   padding-left: 2vw;
+  
+   
+}
+
+.fifth-item{
+   padding-left: 2vw;
+   
+   
+}
+
+
+
+
+.sixth-item{
+   padding-left: 2vw;
+   width: 40px;
+  
+}
+
+
+
+
+
+
+            
+            .Hero{
+                display: flex;
+                width: 500px;
+
+                padding-left: 40px;
+            }
+
+            .text{
+                display: block;
+                width: 300px;
+                font-size: 12px;
+               
+            }
+
+            .img{
+                padding-top: 20px;
+                padding-left: 40px;
+            }
+
+            .blog_card{
+                display: flex;
+            }
+            
+
+           
+           
+           .blog_cards1{
+                padding-top: 20px;
+                
+                margin-left: 10px;
+                width: 80px;
+                
+            }
+
+
+            .blog_cards2{
+                padding-top: 20px;
+                margin-left: 60px;
+                width: 100px;
+            }
+
+            .blog_cards3{
+                padding-top: 20px;
+                margin-left: 40px;
+                width: 100px;
+                
+               
+            }
+
+            
+.card_text1{
+    margin-left: 10px;
+    padding-left: 20px;
+    display: block;
+    width: 80px;
+    font-size: 8px;
+    font-weight: bold;
+}
+
+.Date{
+    padding-left: 10px;
+    font-size: 8px;
+
+}
+
+            
+.cardlist-item1{
+    margin-left: 10px;
+    display: flex;
+    height: 15px;
+    width: 60px;
+    background-color: orange;
+
+    justify-content: center;
+    align-items: center;
+    
+    
+    border-radius: 9999px;
+    font-size: 7px;
+}
+
+
+.cardlist-item2{
+    
+    display: flex;
+    margin-left: 2px;
+    height: 15px;
+    width: 40px;
+    background-color: orange;
+
+    justify-content: center;
+    align-items: center;
+    
+    
+    border-radius: 9999px;
+    font-size: 7px;
+}
+    
+.list2{
+    margin: 0%;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    height: 10px;
+   
+}
+.cardlist-item3{
+    margin-top: 10px;
+    display: flex;
+    margin-left: 10px;
+    height: 15px;
+    width: 60px;
+    font-size: 7px;
+    background-color: orange;
+
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    
+    border-radius: 9999px;
+    
+}
+
+.oldman_img{
+    width: 100px;
+    padding-top: 20px;
+}
+
+
+
+.sigma_text2{
+    font-size: 8px;
+}
+
+.sigma_logo2{
+    width: 20px;
+}
+            
+
+@media (min-width: 501px){
+            body{
+                width: 1440px;
+                background-color: lightpink;
+            }
+
+            .image{
+                display: block;
+                
+                
+               
+                width: 5vw;
+                height: 5vw;
+            }
+
+            .header{
+                 
+            display: none;
+        
+            }
+
+            .navigation_bar{
+                display: flex;
+                align-items: center;
+                background-color: red;
+                font-size: 1.5vw;
+                width: 100vw;
+
+            }
+
+            first-list-item{              
+   
+   flex: 0 0 0% ;
+                  
+}
+
+
+.second-item{
+   padding-left: 10vw;
+  
+   flex: 0 0 0%;
+
+}
+
+.third-item{
+
+   padding-left: 5vw;
+  
+}
+
+
+.fourth-item{
+   padding-left: 4vw;
+  
+   
+}
+
+.fifth-item{
+   padding-left: 4vw;
+   
+   
+}
+
+
+
+
+.sixth-item{
+   padding-left: 4vw;
+   
+}
+
+
+
+
+.last-list-item2{
+    display: flex;
+    margin-left: 10vw;
+   justify-content: center;
+   display: flex;
+   align-items: center;
+   width: 10vw;
+   background-color: blueviolet;
+  height: 5vh;
+   
+}
+            
+            .Hero{
+                display: flex;
+               
+
+                padding-left: 40px;
+            }
+
+            .text{
+                margin-left: 3vw;
+                display: block;
+                width: 300vw;
+                font-size: 3vw;
+               
+            }
+
+            
+
+            .blog_card{
+                padding-top: 6vh;
+                display: flex;
+            }
+            
+
+           .img2{
+            margin-left: 3vw;
+            display: flex;
+            border: 1px solid black;
+            width: 24vw;
+            height: 28vh;
+           }
+           
+           
+           .blog_cards1{
+                padding-top: 3vh;
+                
+                margin-left: 2vw;
+                width: 20vw;
+                
+            }
+
+
+            .blog_cards2{
+                
+                margin-left: 10vw;
+                width: 20vw;
+            }
+
+            .blog_cards3{
+                
+                margin-left: 10vw;
+                width: 20vw;
+
+               
+            }
+
+            
+.card_text1{
+    
+    display: block;
+    width: 20vw;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.Date{
+    padding-left: 4vw;
+    font-size: 1.5vw;
+
+}
+
+            
+.cardlist-item1{
+    
+    margin-left: 2vw;
+    display: flex;
+    height: 4vh;
+    width: 14vw;
+    background-color: orange;
+
+    justify-content: center;
+    align-items: center;
+    
+    
+    border-radius: 9999px;
+    font-size: 1.5vw;
+}
+
+
+.cardlist-item2{
+    
+    display: flex;
+    margin-left: 2vw;
+    height: 4vh;
+    width: 8vw;
+    background-color: orange;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9999px;
+    font-size: 1.5vw;
+}
+    
+.list2{
+    margin: 0%;
+    margin-top: 5vh;
+    margin-bottom: 0%;
+   
+   
+}
+.cardlist-item3{
+    margin-top: 5vh;
+    display: flex;
+    margin-left: 2vw;
+    height: 4vh;
+    width: 14vw;
+    font-size: 1.5vw;
+    background-color: orange;
+
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+    
+    border-radius: 9999px;
+    
+}
+
+.oldman_img{
+    width: 40vw;
+    padding-top: 20px;
+    padding-left: 10vw;
+    margin-left: 0%;
+}
+
+
+
+.sigma_text2{
+    padding-left: 0.5vw;
+    font-size: 1.5vw;
+}
+
+.sigma_logo2{
+    margin-left: 0.5vw;
+    width: 3vw;
+}
+}
+            
+/*---------------------------------------------------------------*/        
+        
+
+        @media (max-width: 500px){
+            body{
+                background-color: lightskyblue;
+            }
+
+           
+
+            .header{
+                display: flex;
+                width: 500px;
+                margin: 0%;
+                
+            }
+
+            .sigma_logo1{
+                display: block;
+                
+                padding-top: 2%;
+                margin-left: 260px;
+                width: 50px;
+                height: 55px;
+            }
+
+            .sigma_text1{
+                margin-left: 0px;
+                padding-right: 0px;
+                display: flex;
+                align-items: center;
+                font-size: 18px;
+    
+            }
+
+            .dropdown_btn{
+            display: flex;
+            padding-top: 3%;
+            height: 40px;
+            align-items: center;
+            }
+
+            .navigation_bar{
+                display: none;
+            }
+
+           
+
+
+            
+            .Hero{
+                display: block;
+                padding-left: 20px;
+                width: 450px;
+                padding-right: 0%;
+            }
+
+            .text{
+                font-size: 20px;
+                margin-right: 0px;
+                padding-left: 100px;
+            }
+
+            .oldman_img{
+                width: 380px;
+                margin-left:70px;
+                margin-top: 20px;
+                
+            }
+
+          
+
+            .blog_card{
+                display: block;
+            }
+            
+        
+
+           
+           .posted_date{
+            padding-left: 0%;
+           }
+
+           .blog_cards1{
+                padding-top: 80px;
+                width: 500px;
+              
+            }
+
+
+            .blog_cards2{
+                padding-left: 0%;
+                padding-top: 0px;
+               margin-left: 10px;
+                width: 0px;
+            }
+
+            .blog_cards3{
+                padding-top: 0px;
+                margin-left: 10px;
+                width: 0px;
+               
+            }
+
+                      
+.card_text1{
+    margin-left: 20px;
+    padding-left: 20px;
+    display: block;
+    width: 80px;
+    font-size: 8px;
+    font-weight: bold;
+}
+
+.Date{
+    padding-left: 120px;
+    margin-left: 120px;
+    font-size: 8px;
+
+}
+
+            
+.cardlist-item1{
+    margin-left: 60px;
+    display: flex;
+    height: 30px;
+    width: 200px;
+    background-color: orange;
+
+    justify-content: center;
+    align-items: center;
+    
+    
+    border-radius: 9999px;
+    font-size: 18px;
+}
+
+
+.cardlist-item2{
+    
+    display: flex;
+    margin-left: 20px;
+    height: 30px;
+    width: 100px;
+    background-color: orange;
+
+    justify-content: center;
+    align-items: center;
+    
+    
+    border-radius: 9999px;
+    font-size: 18px;
+}
+    
+.list2{
+    margin: 0%;
+    margin-top: 10px;
+    margin-bottom: 0%;
+    height: 10px;
+   
+}
+.cardlist-item3{
+    margin-top: 30px;
+    display: flex;
+    margin-left: 60px;
+    height: 30px;
+    width: 200px;
+    font-size: 18px;
+    background-color: orange;
+
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+    border-radius: 9999px;
+    
+}
+           
+.card_text1{
+    margin-left: 20px;
+    display: block;
+    width: 400px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Date{
+    padding-left: 40px;
+    font-size: 16px;
+
+}
+
+.sigma_text2{
+    margin-left: 10px;
+    font-size: 16px;
+    width: 100px;
+}
+
+.sigma_logo2{
+    margin-left: 5px;
+    width: 40px;
+}
+
+.img2{
+    margin-left: 80px;
+    width: 310px;
+    height: 210px;
+}
+
+.oldman_img{
+    padding-left: 10px;
+    width: 310px;
+}
+            
+
+        }
+
+        
+
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+
+
+    <ul class="navigation_bar">
+        <img class=image src="img/sigma_school.png" alt="sigma" ></p>
+        <p class="first-list-item">Sigma <br> School</p>
+        <li class="second-item">Curriculum</li>
+        <li class="third-item">Tuition</li>
+        <li class="fourth-item">Student Reviews</li>
+        <li class="fifth-item">For Company</li>
+        <li class="sixth-item">About Us</li>
+        <li class="last-list-item2">Apply now</li>
+    </ul>
+    
+    
+        <div class="header">
+            <img class="dropdown_btn" src="img/dropdown.jpg" width="35px">
+            <div class="dropdown-content">
+            <div class="list">Curriculum</div>
+            <div class="list">Tuition</div>
+            <div class="list">Student Reviews</div>
+            <div class="list">For Company</div>
+            <div class="list">About Us</div>
+            <div class="list">Apply now</div>
+            
+            </div>
+           
+
+                    <img class="sigma_logo1" src="img/sigma_school.png" alt="sigma" >                    
+                    <p class="sigma_text1">Sigma <br> School</p>
+
+                </div>
+            
+         
+      
+
+   
+        <div class="Hero">
+            <div class="text">
+                <h1>Our Blogs</h1>
+
+                <p>Read about technology, entrepreneurship, startups,<br> 
+                    investments and topics that will help you in your<br>
+                     learning/entrepreneurial journey!</p>
+                     </div>
+                      <img class="oldman_img" src="img/business.jpeg" alt="picture">
+                  
+
+        </div>
+
+    <div class="blog_card">
+        <div class="blog_cards1">
+            <img class="img2" src="img/web_developer.jpg" alt="pic2" width="190px" height="170px">
+            <ul class="list2">
+                <li class="cardlist-item1">software developer</li>
+                <li class="cardlist-item2">coding</li>   
+            </ul>
+            <span class="cardlist-item3">tech jobs</span>
+            <p class="card_text1">
+                5 tips to become a software developer
+
+            </p>
+            <ul class="posted_date">
+                <li class="sigma_logo2"><img class="sigma_logo2" src="img/sigma_school.png" alt="sigma" width="40px"></li>
+                <li class="sigma_text2">Sigma <br> School</li>
+                <li class="Date">7/10/2022 09:00AM</li>
+
+            </ul>
+        </div>
+            <div class="blog_cards2">
+                <img class="img2" src="img/coding.jpg" alt="pic2" width="190px" height="170px">
+                <ul class="list2">
+                    <li class="cardlist-item1">tech</li>
+                    <li class="cardlist-item2">coding</li>   
+                </ul>
+                <span class="cardlist-item3">upskill</span>
+                
+                <h2 class="card_text1">
+                    Reason why you should learn code
+    
+                </h2>
+                <ul class="posted_date">
+                    <li class="sigma_logo2"><img class="sigma_logo2" src="img/sigma_school.png" alt="sigma" ></li>
+                    <li class="sigma_text2">Sigma <br> School</li>
+                    <li class="Date">8/10/2022 09:00AM</li>
+    
+                </ul>
+    
+            </div>
+    
+            <div class="blog_cards3">
+                <img class="img2" src="img/remote.jpg" alt="pic2" width="190px" height="170px">
+                <ul class="list2">
+                    <li class="cardlist-item1">tech jobs</li>
+                    <li class="cardlist-item2">sigma</li>   
+                </ul>
+                <span class="cardlist-item3">career</span>
+                <h2 class="card_text1">
+                    5 tips to become a software developer
+    
+                </h2>
+                <ul class="posted_date">
+                    <li class="sigma_logo2"><img class=sigma_logo2 src="img/sigma_school.png" alt="sigma" ></li>
+                    <li class="sigma_text2">Sigma <br> School</li>
+                    <li class="Date">9/10/2022 09:00AM</li>
+    
+                </ul>
+
+       
+        </div>
+    </div>
+       
+        
+
+        
+       
+   
+
+    
+</body>
+</html>
