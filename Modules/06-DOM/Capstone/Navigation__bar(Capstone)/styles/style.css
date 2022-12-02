@@ -1,0 +1,88 @@
+:root{
+    --primary-green:#64ffda;
+    --secondary-gray: #ccd6f6;
+
+/* font sizes */
+--text-sm: 0.875rem;
+--text-base: 1rem;
+--text-lg: 1.125rem;
+--text-xl: 1.25rem;
+--text-2xl: 1.5rem;
+--text-3xl: 1.875rem;
+--text-4xl: 2.25rem;
+--text-5xl: 3rem;
+--text-6xl: 3.75rem;
+--text-7xl: 4.5rem;
+}
+
+
+    body{
+        background-color: darkblue;
+        height: 2000px;
+    }
+
+    .top-wrapper{
+        display: flex;
+        position: sticky;
+        top: 0;
+        height: 100px;
+        width: 1500px;
+       
+       
+        
+    }
+.header{
+    position: relative;
+    display: flex;
+    background-color: darkblue;   
+}
+
+.hideheader{
+    display: none;
+    background-color: darkblue;   
+    
+}
+
+
+
+.highlight{
+    color: var(--primary-green)   
+}
+
+.navigation__container{
+    display: flex;
+    margin-left: 700px;
+    align-items: center;
+}
+.navigation__links> *+*{
+    margin-left: 6rem;
+}
+
+.navigation__links{
+    display: flex;
+}
+
+.link__name{
+    color: var(--secondary-gray);
+    text-decoration: none;
+}
+
+
+.link__item{
+    display: flex;
+    list-style-type: none;
+}
+
+.user__icon{
+    width: 3rem;
+    height: 3rem;
+    color: var(--primary-green);
+}
+.resume__link{
+    color: var(--primary-green);
+    text-decoration: none;
+    border: 1px solid var(--primary-green);
+    padding: 0.75rem 1rem;
+    border-radius: 0.375rem;
+    margin-left: 60px;
+}
