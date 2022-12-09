@@ -1,0 +1,78 @@
+#title{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0px;
+    font-size: 28px;
+}
+#title-container{
+    background-color: aquamarine;
+    width: 1180px;
+    margin-left: 140px;
+}
+#title2{
+    padding-left: 150px;
+    font-size: 40px;
+    font-weight: 550;
+}
+#container{
+    display: flex;
+    width: 800px;
+    height: 1000px;
+}
+#card1{
+    margin-left: 140px;
+    margin-top: 0px;
+    line-height:25px
+}
+
+#catname{
+    font-weight: 800;
+    font-size: 25px;
+}
+#catImage{
+    width: 340px;
+    height: 340px;
+}
+
+#profileLink{
+    text-decoration: none;
+}
+
+
+#card2{
+    margin-left: 80px;
+    line-height:25px
+}
+#catname2{
+    font-weight: 800;
+    font-size: 25px;
+}
+
+#catImage2{
+    width: 340px;
+    height: 340px;
+}
+
+#profileLink2{
+    text-decoration: none;
+}
+
+
+#card3{
+    margin-left: 80px;
+    line-height:25px
+}
+
+#catImage3{
+    width: 340px;
+    height: 340px;
+}
+
+#profileLink3{
+    text-decoration: none;
+}
+#catname3{
+    font-weight: 800;
+    font-size: 25px;
+
+}
