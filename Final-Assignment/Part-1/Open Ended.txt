@@ -1,0 +1,166 @@
+Lim Chen Teik 
+
+
+1. Loop is used for the task that perform in iterative process if the condition is fulfil which is true.
+ 
+   The loop will be running forever until the condition is no longer fulfil which is false, the iteration 
+   
+   process will be stop.
+
+   
+   Example:
+
+   for (i=0 ; i<array.length; i++){   //Condition
+	//repeated task
+   }
+	
+   The repeated task will be excecuted if the condition is fulfill that is 'i' is 
+    
+   smaller than array length. 'i' is initiall value which usually declared as zero.
+
+   The for loop will stop which is in this case the 'i' is equal to array length. 
+   
+   The condition return false and the loop is end. 
+
+
+
+
+
+2. The console.log is a function in javascript to display variable that has been declared, 
+    
+   or display messages in the terminal.
+
+
+   Example of console.log: console.log('//return statement')
+
+   The return statement is used to terminate the function execution and states a value to be
+
+   be saves to the function call. 
+
+   Example of return statement:
+
+   function getSum(a,b){
+   
+        return a + b   //function terminate. Value a+b returned or saved
+
+   }
+
+   getSum(3,5) //function call
+
+   The diiference between console.log and return is the console.log can only display or print 
+
+   the value. From the example of console.log, output will be printed on terminal. 
+
+   The return statement will only terminate the function and return the value to function 
+
+   call but it cannot be printed on terminal.
+
+
+
+
+3. Truthy values are value that will be considered true if there is boolean context is used.
+
+   Falsy are value that will be considered false whenever there is boolean context is used.
+
+   All value itself will have its inherited boolean value which is true or false.
+
+
+   Example of falsy value:
+
+
+   a. false
+
+   b. 0
+
+   c. -0
+
+   d. ""
+
+   e. null
+
+   f. undefined
+
+   g. NaN
+
+
+   Other than all these values are all truthy value.
+
+   
+   For futher explanation:
+
+   Example: 0 is always false
+   
+
+   function truthy(){
+ 
+      if (0){
+    
+          return true
+      
+      }
+     
+      else{
+      
+          return false
+      }
+
+      output: false
+
+     Explanation: the output will return false because 0 itself is false. This same applies
+                    
+                  to NaN, undefined and other falsy value.
+
+
+
+
+    4. How internet work:
+
+      a: A device, such as a computer, phone, or tablet, connects to the Internet through an 
+
+         Internet service provider (ISP). The ISP provides a connection to the Internet via a modem,
+
+         which is connected to the device via a cable or a wireless connection. 
+
+
+      b. When a user wants to access a website or online service, the device sends a request to the
+
+         server hosting the website or service. This request is sent through the ISP's network and then
+
+         transmitted over the Internet through a series of interconnected networks.
+
+      c. The request is then routed to the appropriate server, which sends a response back to the device.
+
+         This response includes the content or information requested by the user, such as a webpage or a video.
+
+         The response is transmitted back to the device through the same series of networks and the ISP's network.
+
+         The device then displays the content or information to the user.
+
+ 
+
+
+       5. How website work:
+
+          When you visit a website, your web browser makes a request to the web server for 
+
+          the web page you want to view. The web server then sends the HTML, CSS, and 
+
+          JavaScript files to your web browser, which uses these files to render the web page.
+
+          Your web browser also sends requests for any additional resources the web page
+
+          needs, such as images or videos. As you navigate to different pages on the website,
+
+          your web browser sends requests for those pages to the web server and displays 
+
+          the new pages as they are received.
+
+          Files involve are HTML, CSS, JavaScript files, image files, database files and others.
+      
+      
+
+       
+
+
+
+   
