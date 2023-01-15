@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Todo App</h1>
+    <p id="reminder">If you burn data after deleted, the deleted data will be disappear after open again</p>  
+    <!-- Todo Form -->
+    <form id="todoForm">
+        <label for="todoInput">Enter your todo:</label>
+        <input id="todoInput" name="todoInput" type="text" placeholder="Enter here...">
+        <button type="button" id="addButton" >Add</button>      
+        <button type="button" value="Delete Data" onclick="clearData()">Burn Data</button>
+        <input type="button" value="Delete All" onclick="removeAll()">
+        <input type="button" value="Undo Delete" onclick="undoDelete()">
+    </form>
+        
+    <!-- Todo List -->
+    <ul id="todoList">
+    
+    </ul>
+    <ul id="deleteList">
+
+    </ul>
+   
+        
+    <!-- Link JavaScript file -->  
+    <script src="app.js"></script>  
+    
+</body>
+</html>

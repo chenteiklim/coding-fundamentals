@@ -1,0 +1,53 @@
+body{
+    background-color: lightblue;
+}
+
+
+#todoForm{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+#title{
+    margin-left: 20px;
+}
+
+/* Completed Todo */
+[done]{
+    color: green;
+    text-decoration: line-through;
+}
+
+/* Deleted Todo */
+.deleted_todo{
+    display: none;
+}
+
+
+.todo-item{
+    display: flex;
+    column-gap: 20px;
+    list-style-type: none;
+    margin-top: 20px;
+    background: lightgrey;
+    padding: 20px;
+}
+
+.priotize{
+    width: 20px;
+}
+
+.color {
+    fill: blue;
+  }
+#todoForm{
+    margin-top: 40px;
+}
+#reminder{
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+  
+  
+
