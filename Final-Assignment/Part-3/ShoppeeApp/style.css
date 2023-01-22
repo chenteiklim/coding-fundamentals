@@ -1,0 +1,84 @@
+body{
+    background-color: 	#CDCDCD;
+}
+#title{
+    color: purple;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+#container{
+    margin-left: 30px;
+    display:  flex;
+    margin-top: 10px;
+}
+
+.product{
+    margin: 20px;
+    background-color: white;
+    width: 180px;
+    height: 400px;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.2px
+}
+.imageContainer{
+    width: 180px;
+    height: 170px;
+    background-color: antiquewhite;
+}
+.image{
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+    padding-left: 20px;
+    margin-left: 10px;   
+}
+
+.name{
+    margin-top: 20px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 14px;
+    
+}
+
+.unit{
+    font-size: 10.5px;
+}
+
+#description1{
+    display: flex;
+    align-items: center;
+}
+.star{
+    padding-left: 45px;
+    margin-top: 15px;
+    display: flex;
+    width: 90px;
+}
+
+#buttonContainer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+
