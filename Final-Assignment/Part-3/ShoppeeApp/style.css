@@ -1,0 +1,96 @@
+body{
+    background-color: bisque;
+    width: 1400px;
+    height: 1400px;
+}
+  
+
+#title{
+    color: purple;
+    margin-left: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+#container{
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    margin-top: 10px;
+    background-color: 	#CDCDCD;
+    
+    flex-wrap: wrap;
+}
+
+.product{
+    margin: 20px;
+    background-color: white;
+    width: 180px;
+    height: 400px;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 0.2px
+}
+.imageContainer{
+    width: 180px;
+    height: 170px;
+    background-color: antiquewhite;
+}
+.image{
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+    padding-left: 20px;
+    margin-left: 10px;   
+}
+
+.name{
+    margin-top: 20px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    font-size: 14px;
+    
+}
+
+.unit{
+    font-size: 10.5px;
+}
+
+#description1{
+    display: flex;
+    align-items: center;
+}
+#rating{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.starItem{
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.btn{
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+
+.checked{
+    color: orange;
+}
