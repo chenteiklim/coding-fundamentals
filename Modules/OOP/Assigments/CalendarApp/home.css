@@ -1,0 +1,18 @@
+input[type='text'] {
+    padding: 10px;
+    border-radius: 10px;
+    width: 800px;
+    font-size: 16px;
+    border-color: rgb(100, 152, 194);
+
+    
+}
+
+#event:focus{
+    outline: 2px solid blue;
+    border: none;
+}
+::placeholder {
+    
+    font-size: 16px;
+}
